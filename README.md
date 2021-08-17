@@ -44,8 +44,9 @@ interface toDos {
 }
 ```
 
-컴포넌트
-ToDoList ⇒ 할일 목록을 담는 컴포넌트
-ToDo ⇒ 각 할일 목록
-SideBar ⇒ 사이드 바
-Filter ⇒ 필터 바
+## 컴포넌트
+
+- ToDoList ⇒ 할일 목록을 담는 컴포넌트
+- ToDo ⇒ 각 할일 목록
+- SideBar ⇒ 사이드 바
+- Filter ⇒ 필터 바

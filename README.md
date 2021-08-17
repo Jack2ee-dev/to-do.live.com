@@ -28,3 +28,24 @@
 - [ ] 메인과 사이드바에서 완료/미완료 버튼으로 상태를 토글할 수 있어야 한다.
 - [ ] 사이드바에서 입력해서 수정이 가능해야 한다.
 - [ ] 드래그 앤 드롭으로 오늘 할 일 순서를 변경할 수 있어야 한다.
+
+## 자료구조
+
+```ts
+interface toDo {
+  title: string;
+  content: string;
+  checked: boolean;
+  subTasks: toDo[];
+}
+
+interface toDos {
+  toDoList: toDo[];
+}
+```
+
+컴포넌트
+ToDoList ⇒ 할일 목록을 담는 컴포넌트
+ToDo ⇒ 각 할일 목록
+SideBar ⇒ 사이드 바
+Filter ⇒ 필터 바
